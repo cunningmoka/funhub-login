@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - FunHub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="https://i.ibb.co/vQpjz0z/funhub-high-resolution-logo-white-transparent.png" alt="Welcome to FunHub">
+      <div class="nav-bar">
+        <div class="nav-links">
+          <a href="home.html">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="gallery.html">Gallery</a>
+        </div>
+        <div class="toggle-container">
+          <label for="dark-mode-toggle">Dark Mode:</label>
+          <input type="checkbox" id="dark-mode-toggle">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>Login</h1>
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="Enter your username" required>
+      <div id="username-error" class="error"></div>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter your password" required>
+      <div id="password-error" class="error"></div>
+    </div>
+    <div class="form-group">
+      <button type="button" id="login-button">Login</button>
+    </div>
+    <p><a href="#">Forgot your password?</a></p>
+    <p>Don't have an account? <a href="signin.html">Sign up here</a></p>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 FunHub. All rights reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
